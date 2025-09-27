@@ -13,8 +13,8 @@ export default function About() {
           et l’amélioration continue de mes compétences en programmation.
         </p>
         <p className="text-gray-600 dark:text-gray-300 mb-6">
-          J’ai travaillé sur des projets React, Python et C/C++, et je suis toujours prêt à relever de nouveaux défis et à apprendre sur le tas. 
-          J’aime créer des expériences utilisateurs fluides et engageantes.
+            J’ai travaillé sur des projets React, Python et C/C++, ainsi que sur le développement de bot Discord de serveurs Minecraft et d’autres jeux en ligne. 
+            Je suis toujours prêt à relever de nouveaux défis et à apprendre sur le tas, en créant des expériences utilisateurs fluides et engageantes.
         </p>
         <div className="flex justify-center space-x-4">
           <a
