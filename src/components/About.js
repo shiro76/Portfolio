@@ -25,7 +25,7 @@ export default function About() {
           </a>
           <a
             href="/cv/mon_CV.pdf"
-            target="_blank"
+            //target="_blank"
             className="bg-gray-200 text-gray-800 px-6 py-3 rounded-lg hover:bg-gray-300 transition"
           >
             Télécharger mon CV
