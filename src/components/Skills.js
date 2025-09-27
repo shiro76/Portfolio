@@ -7,7 +7,8 @@ function Skills() {
     "Python",
     "C / C++",
     "Git & GitHub",
-    "SQL / Bases de données"
+    "SQL / Bases de données",
+    "Maitrise des outils IA"
   ];
 
   return (
