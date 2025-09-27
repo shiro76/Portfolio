@@ -4,6 +4,8 @@ import Header from "./components/Header";
 
 import AppPortfolio from "./AppPortfolio";
 import TodoPage from "./components/TodoPage";
+import SnakePage from "./components/SnakePage";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<AppPortfolio />} />
         <Route path="/todo" element={<TodoPage />} />
+        <Route path="/snake" element={<SnakePage />} />
       </Routes>
     </Router>
   );

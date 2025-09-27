@@ -2,6 +2,7 @@ import React from "react";
 
 import screen1 from "../screen/React_portfolio.png";
 import screen2 from "../screen/Todo.png"
+import screen3 from "../screen/snakeGame.png"
 
 function Projects() {
   const projects = [
@@ -22,12 +23,12 @@ function Projects() {
       demo: "/todo",
     },
     {
-      title: "Mini jeu en Python",
+      title: "Mini jeu du snake",
       description:
-        "Petit jeu codé en Python pour m'entraîner à la logique et au gameplay.",
-      image: "https://via.placeholder.com/400x200",
-      github: "https://github.com/ton-github/python-game",
-      demo: "#",
+        "Petit jeu pour m'entraîner à la logique et au gameplay.",
+      image: screen3,
+      github: "https://github.com/shiro76/Portfolio/blob/main/src/components/Snake.jsx",
+      demo: "/snake",
     },
   ];
 
