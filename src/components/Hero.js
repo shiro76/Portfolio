@@ -10,7 +10,7 @@ function Hero() {
         Salut, je suis <span className="text-yellow-300">Stanislas</span>
       </h1>
       <p className="text-lg max-w-2xl mb-6">
-        Développeur Web passionné. J’aime créer des applications modernes et apprendre
+        Développeur passionné. J’aime créer des applications modernes et apprendre
         de nouvelles technologies comme React, Python ou C++.
       </p>
       <a
