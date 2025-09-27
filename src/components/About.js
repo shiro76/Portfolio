@@ -24,7 +24,7 @@ export default function About() {
             Me contacter
           </a>
           <a
-            href="/mon_CV.pdf"
+            href="/cv/mon_CV.pdf"
             target="_blank"
             className="bg-gray-200 text-gray-800 px-6 py-3 rounded-lg hover:bg-gray-300 transition"
           >
