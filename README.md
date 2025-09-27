@@ -1,4 +1,4 @@
-# 🌐 Mon Portfolio
+# Mon Portfolio
 
 Bienvenue sur mon portfolio personnel !  
 Ce projet regroupe mes travaux, projets, et expériences, ainsi qu’une démo de mes compétences en développement web.
@@ -20,21 +20,6 @@ Ce projet regroupe mes travaux, projets, et expériences, ainsi qu’une démo d
 
 - **Frontend** : [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/)
 - **Routing** : [React Router](https://reactrouter.com/)
-
----
-
-## Structure du projet
-portfolio/
-├── src/
-│ ├── components/ # Composants réutilisables
-│ ├── pages/ # Pages (Accueil, Projets, Contact, Snake, etc.)
-│ ├── App.jsx # Point d’entrée React
-│ └── index.css # Styles globaux
-├── public/ # Fichiers statiques
-├── package.json
-├── tailwind.config.js
-└── README.md
-
 
 ---
 
@@ -63,7 +48,7 @@ Le jeu contient :
 
 ## Contact
 
-- Email : tonemail@example.com  
+- Email : devfreelance76@gmail.com  
 - LinkedIn : [linkedin.com/in/tonprofil](https://github.com/shiro76)  
 - GitHub : [https://www.linkedin.com/in/stan-jan-b8ab69199/](https://www.linkedin.com/in/stan-jan-b8ab69199/)  
 
