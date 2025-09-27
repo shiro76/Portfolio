@@ -53,14 +53,12 @@ export default function Todo() {
                 onClick={() => toggleTask(index)}
                 className={`flex-1 cursor-pointer ${
                   task.done ? "line-through text-gray-400" : ""
-                }`}
-              >
+                }`}>
                 {task.text}
               </span>
               <button
                 onClick={() => deleteTask(index)}
-                className="text-red-500 hover:text-red-700 font-bold"
-              >
+                className="text-red-500 hover:text-red-700 font-bold">
                 X
               </button>
             </li>

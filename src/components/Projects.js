@@ -18,8 +18,8 @@ function Projects() {
       description:
         "Une application web simple en React pour gérer une liste de tâches.",
       image: screen2,
-      github: "https://github.com/ton-github/todo-app",
-      demo: "#",
+      github: "https://github.com/shiro76/Portfolio/blob/main/src/components/Todo.js",
+      demo: "/todo",
     },
     {
       title: "Mini jeu en Python",
@@ -64,8 +64,8 @@ function Projects() {
                   </a>
                   <a
                     href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    //target="_blank"
+                    //rel="noopener noreferrer"
                     className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-500 transition"
                   >
                     Demo
