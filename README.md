@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# 🌐 Mon Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue sur mon portfolio personnel !  
+Ce projet regroupe mes travaux, projets, et expériences, ainsi qu’une démo de mes compétences en développement web.
 
-## Available Scripts
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Page d’accueil** : présentation rapide
+- **Section Projets** : liste de mes réalisations (avec liens vers GitHub/démos)
+- **Section Compétences** : technologies et outils que j’utilise
+- **Mini-jeux intégrés** 🎮 : comme un Snake codé en React
+- **Design responsive** : adapté aux mobiles, tablettes et ordinateurs
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Technologies utilisées
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend** : [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/)
+- **Routing** : [React Router](https://reactrouter.com/)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Structure du projet
+portfolio/
+├── src/
+│ ├── components/ # Composants réutilisables
+│ ├── pages/ # Pages (Accueil, Projets, Contact, Snake, etc.)
+│ ├── App.jsx # Point d’entrée React
+│ └── index.css # Styles globaux
+├── public/ # Fichiers statiques
+├── package.json
+├── tailwind.config.js
+└── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🎮 Mini-jeu Snake
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Une petite démo interactive réalisée en React pour montrer mes compétences en **canvas**, **animations** et **gestion d’état**.  
+Le jeu contient :
+- Un menu d’accueil
+- Un système de score
+- Un écran *Game Over* avec possibilité de rejouer
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Aperçu
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Page d’accueil
+![Accueil](./src/screen/React_portfolio.png)
 
-## Learn More
+### Exemple de projet
+![Projet](./src/screen/Todo.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Mini-jeu Snake
+![Snake](./src/screen/snakeGame.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Email : tonemail@example.com  
+- LinkedIn : [linkedin.com/in/tonprofil](https://github.com/shiro76)  
+- GitHub : [https://www.linkedin.com/in/stan-jan-b8ab69199/](https://www.linkedin.com/in/stan-jan-b8ab69199/)  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Merci d’avoir visité mon portfolio ! N’hésitez pas à me contacter pour discuter de mes projets.
