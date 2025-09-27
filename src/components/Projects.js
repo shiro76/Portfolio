@@ -1,6 +1,7 @@
 import React from "react";
 
 import screen1 from "../screen/React_portfolio.png";
+import screen2 from "../screen/Todo.png"
 
 function Projects() {
   const projects = [
@@ -9,14 +10,14 @@ function Projects() {
       description:
         "Mon site personnel réalisé avec React et TailwindCSS pour présenter mes compétences.",
       image: screen1, // remplace par une vraie capture
-      github: "https://github.com/ton-github/portfolio",
+      github: "https://github.com/shiro76/Portfolio",
       demo: "#",
     },
     {
       title: "Application Todo",
       description:
         "Une application web simple en React pour gérer une liste de tâches.",
-      image: "https://via.placeholder.com/400x200",
+      image: screen2,
       github: "https://github.com/ton-github/todo-app",
       demo: "#",
     },
@@ -46,7 +47,7 @@ function Projects() {
                 src={project.image}
                 alt={project.title}
                 className="w-full h-60 object-cover"
-
+                //className="w-full h-auto object-cover"
                 //className="w-full h-40 object-cover"
               />
               <div className="p-6">
