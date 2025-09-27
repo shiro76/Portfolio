@@ -6,10 +6,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_qa84urj",         // ID service
-        "template_ebofpun",  // ID template
-        e.target,            // le <form> complet
-        "1uQmBmaOdrMtueMxp"  // clé publique
+        process.env.REACT_APP_EMAILJS_SERVICE,
+        process.env.REACT_APP_EMAILJS_TEMPLATE,
+        e.target,
+        process.env.REACT_APP_EMAILJS_PUBLIC
       )
       .then(
         () => alert("Message envoyé ✅"),
