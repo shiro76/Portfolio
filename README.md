@@ -54,4 +54,4 @@ Le jeu contient :
 
 ---
 
-Merci d’avoir visité mon portfolio ! N’hésitez pas à me contacter pour discuter de mes projets.
+Merci d’avoir visité mon portfolio ! N’hésitez pas à me contacter.
