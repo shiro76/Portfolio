@@ -19,7 +19,7 @@ function Projects() {
       description:
         "Une application web simple en React pour gérer une liste de tâches.",
       image: screen2,
-      github: "https://github.com/shiro76/Portfolio/blob/main/src/components/Todo.js",
+      github: "https://github.com/shiro76/Portfolio/blob/main/src/components/TodoPage.js",
       demo: "/todo",
     },
     {
